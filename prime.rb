@@ -2,7 +2,7 @@
 def prime?(num)
   #if a number is divisible by 2 or 3 it is not prime:
 
-  if num % 2 == 0 && !(num==2) || num % 3 == 0 && !(num==3) || if num < 0
+  if num % 2 == 0 && !(num==2) || num % 3 == 0 && !(num==3) || num < 0
     return false
   end
 
